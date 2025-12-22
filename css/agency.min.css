@@ -20,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  color:#004de6 ;
+  color:#000000 ;
   font-weight: 700;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -54,8 +54,8 @@ section h3.section-subheading {
   padding: 20px 40px;
 }
 .btn-primary {
-  background-color: #004de6;
-  border-color: #004de6;
+  background-color: #fc492d;
+  border-color: #fc492d;
 }
 .btn-primary:active,
 .btn-primary:focus,
@@ -212,7 +212,7 @@ header.masthead .intro-text .intro-heading {
 
 
 .services-section {
-  padding: 20px 10px;
+  padding: 20px 5px;
 }
 
 .row-services {
@@ -672,4 +672,22 @@ ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
   background-color: #f84615;
+}
+.brands img {
+  margin: 10px;
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+  transition: transform 0.3s ease;
+}
+
+.brands img:hover {
+  transform: scale(1.2);
+}
+
+.brands-row {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
