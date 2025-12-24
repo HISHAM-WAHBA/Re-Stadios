@@ -20,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  color:#000000 ;
+  color: #fc492d;
   font-weight: 700;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -209,8 +209,6 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
-
-
 .services-section {
   padding: 20px 5px;
 }
@@ -251,11 +249,9 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
-
-
 #portfolio .portfolio-item {
   right: 0;
-  margin: 0 0 15px;
+  margin: 15px;
 }
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
@@ -272,7 +268,6 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: #fc492d;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
@@ -315,7 +310,7 @@ header.masthead .intro-text .intro-heading {
 }
 #portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
-  margin: 0 auto;
+  margin: 10 auto;
   padding: 25px;
   text-align: center;
   background-color: #fff;
@@ -403,6 +398,7 @@ header.masthead .intro-text .intro-heading {
   transform: rotate(90deg);
   background-color: #212529;
 }
+
 .timeline {
   position: relative;
   padding: 0;
